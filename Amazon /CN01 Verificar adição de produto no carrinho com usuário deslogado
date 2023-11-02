@@ -6,7 +6,7 @@ CT01- Validar adição de um produto no carrinho com usuário deslogado
                    digitar em pesquisa " chanel" 
                    clicar na lupa 
                    clicar no perfume desejado " coco chanel" 
-                   clicar em comprar agora
+                   clicar em adicionar produto
                    usuário é direcionado a página de fazer login 
-- Resultado esperado: usuário realizar a compra do produto sem estar logado
-- Resultado real: para usuário realizar a compra do produto ele precisa estar logado 
+- Resultado esperado: usuário adicionar produto desejado sem estar logado
+- Resultado real: usuário não consegue adicionar produto desejado sem estar logado  
