@@ -6,7 +6,7 @@ CT01- Validar adição de um produto no carrinho com usuário logado
                    digitar em pesquisa " chanel" 
                    clicar na lupa 
                    clicar no perfume desejado " coco chanel" 
-                   clicar em comprar agora
+                   clicar em adicionar no carrinho
                    usuário é direcionado a página de fazer login
                    usuário digita e-mail e clica em continuar
                    usuário digita senha e clica em fazer login
