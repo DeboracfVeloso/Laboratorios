@@ -15,7 +15,7 @@ CT01- Validar adição de um produto no carrinho com usuário logado
                    usuário confirma pedido adicionado
 - Resultado esperado: usuário adicionar produto estando logado
 
-CT02- Validar adição de dois produtos de categorias diferentes 
+CT02- Validar adição de dois produtos de categorias diferentes com usuário logado
 - Passos do teste: entrar no site ( https://www.amazon.com.br/) 
                    clicar no menu e escolher a categoria " Beleza e Cuidados Pessoais" 
                    clicar em Perfumes 
@@ -33,7 +33,7 @@ CT02- Validar adição de dois produtos de categorias diferentes
                   usuário adiciona ao carrinho o objeto escolhido
 - Resultado esperado: usuário adicionar dois produtos de categorias diferentes estando logado
 
-CT03- Validar adição de três produtos de categorias diferentes, sendo um deles uma roupa feminina
+CT03- Validar adição de três produtos de categorias diferentes, sendo um deles uma roupa feminina com usuário logado
 - Passos do teste: entrar no site ( https://www.amazon.com.br/) 
                    clicar no menu e escolher a categoria " Beleza e Cuidados Pessoais" 
                    clicar em Perfumes 
