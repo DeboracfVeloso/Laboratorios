@@ -1,1 +1,16 @@
+CT01- Validar adição de um produto no carrinho com usuário logado 
+- Passos do teste: entrar no site ( https://www.amazon.com.br/) 
+                   clicar no menu e escolher a categoria " Beleza e Cuidados Pessoais" 
+                   clicar em Perfumes 
+                   clicar em Feminino
+                   digitar em pesquisa " chanel" 
+                   clicar na lupa 
+                   clicar no perfume desejado " coco chanel" 
+                   clicar em comprar agora
+                   usuário é direcionado a página de fazer login
+                   usuário digita e-mail e clica em continuar
+                   usuário digita senha e clica em fazer login
+                   usuário recebe o código de acesso pelo celular, digita esse código e clica em fazer login
+                   usuário confirma pedido adicionado
+- Resultado esperado: usuário adicionar produto estando logado
 
