@@ -1,0 +1,56 @@
+@ -1,56 +0,0 @@
+CT01- Validar adição de um produto no carrinho com usuário logado 
+- Passos do teste: entrar no site ( https://www.amazon.com.br/) 
+                   clicar no menu e escolher a categoria " Beleza e Cuidados Pessoais" 
+                   clicar em Perfumes 
+                   clicar em Feminino
+                   digitar em pesquisa " chanel" 
+                   clicar na lupa 
+                   clicar no perfume desejado " coco chanel" 
+                   clicar em adicionar ao carrinho
+                   usuário é direcionado a página de fazer login
+                   usuário digita e-mail e clica em continuar
+                   usuário digita senha e clica em fazer login
+                   usuário recebe o código de acesso pelo celular, digita esse código e clica em fazer login
+                   usuário confirma pedido adicionado
+- Resultado esperado: usuário adicionar produto estando logado
+
+CT02- Validar adição de dois produtos de categorias diferentes 
+- Passos do teste: entrar no site ( https://www.amazon.com.br/) 
+                   clicar no menu e escolher a categoria " Beleza e Cuidados Pessoais" 
+                   clicar em Perfumes 
+                   clicar em Feminino
+                   digitar em pesquisa " chanel" 
+                   clicar na lupa 
+                   clicar no perfume desejado " coco chanel" 
+                   clicar em adicionar ao carrinho
+                   usuário é direcionado a página de fazer login
+                   usuário digita e-mail e clica em continuar
+                   usuário digita senha e clica em fazer login
+                   usuário recebe o código de acesso pelo celular, digita esse código e clica em fazer login
+                   usuário vai na lupa e digita caderno espiral capa dura colorido tilibra
+                  resultado aparece e usuário clica no objeto 
+                  usuário adiciona ao carrinho o objeto escolhido
+- Resultado esperado: usuário adicionar dois produtos de categorias diferentes estando logado
+
+CT03- Validar adição de três produtos de categorias diferentes, sendo um deles uma roupa feminina
+- Passos do teste: entrar no site ( https://www.amazon.com.br/) 
+                   clicar no menu e escolher a categoria " Beleza e Cuidados Pessoais" 
+                   clicar em Perfumes 
+                   clicar em Feminino
+                   digitar em pesquisa " chanel" 
+                   clicar na lupa 
+                   clicar no perfume desejado " coco chanel" 
+                   clicar em adicionar ao carrinho
+                   usuário é direcionado a página de fazer login
+                   usuário digita e-mail e clica em continuar
+                   usuário digita senha e clica em fazer login
+                   usuário recebe o código de acesso pelo celular, digita esse código e clica em fazer login
+                   usuário vai na lupa e digita caderno espiral capa dura colorido tilibra
+                  resultado aparece e usuário clica no objeto 
+                  usuário adiciona ao carrinho o objeto escolhido
+                  usuário vai em Menu, Comprar Por Categoria, Ver Tudo, rola a barra lateral da página para baixo, clica em Roupas, Calçados e Acessórios, clica em Feminino
+                  escreve na lupa vestido floral e clica em pesquisar 
+                  usuário escolhe vestido Amikadon, escolhe a cor roxo e seleciona o tamanho p
+                  usuário adiciona ao carrinho
+- Resultado esperado: usuário adicionar três produtos de categorias diferentes, sendo um deles roupa feminina, estando logado
