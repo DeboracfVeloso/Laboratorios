@@ -3,37 +3,42 @@ CT01- Validar compra com sucesso no site da Amazon
                    clicar no menu e escolher a categoria " Beleza e Cuidados Pessoais"
                    ir na parte de maquiagem e digitar na lupa rímel maybelline
                    escolher o rímel desejado e adicionar ao carrinho
-                   usuário é direcionado para a tela " Adicionado ao carrinho" com valor subtotal do carrinho
-                   usuário clica no carrinho, que possui a quantidade de ítens adicionados e valor do produto
-                   usuário é direcionado aos produtos selecionados e possui a opção de conferir e fechar pedido
-                   usuário que já tem a conta na Amazon confirma endereço e forma de pagamento
+                   usuário clica no carrinho, é direcionado para a tela " Carrinho de compras" na qual possui o produto, a quantidade e o valor subtotal do carrinho
+                   usuário clica em " Fechar pedido"
+                   usuário que já tem a conta na Amazon confirma endereço, forma de pagamento e revisa ítens e envio
+                   usuário clica em " Finalizar pedido"
 - Resultado esperado: usuário concluir a compra com sucesso e receber um e-mail confirmando a compra e o pagamento
 
 CT02- Validar usuário adiciona um produto ao carrinho de compras e, em seguida, altera a quantidade do produto
 - Passos do teste: entrar no site ( https://www.amazon.com.br/) 
                    clicar no menu e escolher a categoria " Beleza e Cuidados Pessoais"
                    ir na parte de maquiagem e digitar na lupa rímel maybelline
-                   escolher o rímel desejado e clica em comprar uma única vez e adiciona ao carrinho
-                   usuário é direcionado para a tela " Adicionado ao carrinho" com valor subtotal do carrinho
-                   usuário clica no carrinho de compras, vai em quantidade e seleciona quantos ítens deseja comprar, logo o valor total do pedido será alterado
+                   escolher o rímel desejado e adicionar ao carrinho
+                   usuário clica no carrinho, é direcionado para a tela " Carrinho de compras" na qual possui o produto, a quantidade e o valor subtotal do carrinho
+                   usuário altera a quantidade de produto para dois ítens
+                   usuário clica em " Fechar pedido"
+                   usuário que já tem a conta na Amazon confirma endereço, forma de pagamento e revisa ítens e envio
+                   usuário clica em " Finalizar pedido" 
 - Resultado esperado: usuário concluir a compra com sucesso e receber um e-mail confirmando compra e pagamento
 
 CT03- Validar que usuário adiciona produto ao carrinho e tenta fazer a compra sem fazer login, mas não consegue
 - Passos do teste: entrar no site ( https://www.amazon.com.br/) 
                    clicar no menu e escolher a categoria " Beleza e Cuidados Pessoais"
                    ir na parte de maquiagem e digitar na lupa rímel maybelline
-                   escolher o rímel desejado e clica em comprar uma única vez e adiciona ao carrinho
-                   usuário é direcionado para a tela " Adicionado ao carrinho" com valor subtotal do carrinho
-                   ao clicar no carrinho, é pedido ao usuário para informar seu e-mail, em seguida senha para fazer login ou criar uma conta
+                   escolher o rímel desejado e adicionar ao carrinho
+                   usuário clica no carrinho, é direcionado para a tela " Carrinho de compras" na qual possui o produto, a quantidade e o valor subtotal do carrinho
+                   usuário clica em " Fechar pedido"
+                   aparece na tela " Faça login para continuar" Insira seu número de celular ou endereço de e-mail, ou Criar conta 
 - Resultado esperado: usuário não conclui a compra por não estar logado 
 
 CT04- Validar que usuário não consegue fazer a compra com um grande número de produtos no carrinho 
 - Passos do teste: entrar no site ( https://www.amazon.com.br/) 
                    clicar no menu e escolher a categoria " Beleza e Cuidados Pessoais"
                    ir na parte de maquiagem e digitar na lupa rímel maybelline
-                   escolher o rímel desejado e clica em comprar uma única vez e adiciona ao carrinho
-                   usuário é direcionado para a tela " Adicionado ao carrinho" com valor subtotal do carrinho
-                   ao clicar no carrinho,usuário coloca em quantidade 100 produtos
+                   escolher o rímel desejado e adicionar ao carrinho
+                   usuário clica no carrinho, é direcionado para a tela " Carrinho de compras" na qual possui o produto, a quantidade e o valor subtotal do carrinho
+                   usuário clica em " Quantidade" e adiciona o número 100 
+                   aparece uma tela com a mensagem de que " Este produto tem uma quantidade de compra limitada a 10 unidades por cliente"
 - Resultado esperado: usuário não conclui a compra por exceder ao número limite de dez unidades por cliente
 
 
