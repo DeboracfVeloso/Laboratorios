@@ -1,7 +1,7 @@
 CT01- Validar envio de Pix utilizando saldo na conta
 -   Passos do teste: entrar no aplicativo PicPay, usuário é direcionado para home 
                      clicar em Pix 
-                     escolhe a forma de fazer o pix - no caso clica em Transferir
+                     escolhe a forma de fazer o pix -saldo na conta- clica em Transferir
                      inserir a chave pix
                      digitar o valor do pagamento 
                      clicar no botão confirmar valor
@@ -11,3 +11,37 @@ CT01- Validar envio de Pix utilizando saldo na conta
                      clicar em finalizar
                      comprovante do pix com opção de compartilhar, fazer outro pix ou fechar aba
 - Resultado esperado: aparecer comprovante do pix realizado com saldo 
+
+CT02- Validar envio de Pix utilizando saldo na conta com valor menor, do que valor do Pix
+- Passos do teste: entrar no aplicativo PicPay, usuário é direcionado para home 
+                   clicar em Pix 
+                   escolhe a forma de fazer o pix -saldo na conta- clica em Transferir
+                   inserir a chave pix
+                   digitar o valor do pagamento 
+                   clicar no botão confirmar valor
+                   conferir informações do pix na tela ( no caso, o app direcionou o pagamento para Pix + Cartão pois não tem saldo na conta o suficiente)
+- Resultado esperado: usuário não conseguir realizar o Pix
+- Resultado real: usuário consegue realizar o pix, o aplicativo direciona o restante do valor para o cartão de crédito para que o usuário consiga realizar o pix
+
+CT03- Validar envio de Pix utilizando saldo na conta com dados inválidos da conta de destino
+- Passos do teste: entrar no aplicativo PicPay, usuário é direcionado para home 
+                   clicar em Pix 
+                   escolhe a forma de fazer o pix -saldo na conta- clica em Transferir
+                   inserir a chave pix incorreta
+                   o sistema mostra uma mensagem para conferir os dados da chave Pix e tentar novamente
+- Resultado esperado: transação não é realizada
+
+CT04- Validar envio de Pix utilizando saldo na conta e na hora ocorre um erro no sistema
+- Passos do teste: entrar no aplicativo PicPay, usuário é direcionado para home 
+                    clicar em Pix 
+                    escolhe a forma de fazer o pix -saldo na conta- clica em Transferir
+                    inserir a chave pix
+                    digitar o valor do pagamento 
+                    clicar no botão confirmar valor
+                    conferir informações do pix na tela ( cartão/ saldo ( escolhi saldo), valor de saldo disponível, se é á vista ou parcelado, dia da transação, descrição)
+                    clicar em pagar
+                    digitar a senha ou usar digital para confirmar
+                    clicar em finalizar
+                    o sistema exibe uma mensagem de erro, informando que durante a transação ocorreu um erro 
+- Resultado esperado: transação não é realizada
+  
