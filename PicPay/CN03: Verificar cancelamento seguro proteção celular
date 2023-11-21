@@ -1,0 +1,8 @@
+CT01- Validar cancelamento de seguro proteção celular
+- Passos do teste: abrir aplicativo PicPay no celular
+                   digitar na lupa "proteger celular"
+                   clicar no seguro de proteção celular para cancelar
+                   clicar em "mais opções"
+                   clicar em "cancelar seguro"
+                   aparece as informações e clicar em " cancelar mesmo assim"
+- Resultado esperado: o seguro é cancelado com sucesso pois está dentro do prazo de sete dias corridos após a contratação
