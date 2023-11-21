@@ -1,1 +1,20 @@
+CT01- Validar contratação de seguro proteção celular
+- Passos do teste: abrir aplicativo PicPay no celular
+                   clicar na Lupa e digitar proteger celular 
+                   a tela abre com a informação do modelo do celular
+                   escolher o plano desejado ( tem 3 opções) 
+                   clicar em contratar 
+                   selecionar a forma de pagamento
+                   clicar em confirmar 
+- Resultado esperado: o seguro é contratado com sucesso
+
+CT02- Validar que ao colocar um modelo de celular que não existe o seguro não é contratado
+- Passos do teste: abrir aplicativo PicPay no celular
+                   clicar na Lupa e digitar proteger celular
+                   a tela abre com a informação do modelo do celular
+                   clicar em alterar celular
+                   na opção de escolher a marca do celular digitei " siemens" o app já me avisa que não foi encontrado nenhum resultado
+- Resultado esperado: o usuário recebe uma mensagem de erro informando que o modelo de celular não foi encontrado, logo não é possível contratar o seguro
+
+
 
