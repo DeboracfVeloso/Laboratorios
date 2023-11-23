@@ -1,0 +1,6 @@
+CT01: Validar mensagem de erro ao digitar senha incorreta
+- Passos do teste: acessar o site da Cemig ( https://www.cemig.com.br/)
+                   clicar em " segunda via de conta"
+                   informar usuário e senha
+                   usuário recebe mensagem de senha ou usuário incorreto
+- Resultado esperado: usuário recebe mensagem de senha ou usuário incorreto
