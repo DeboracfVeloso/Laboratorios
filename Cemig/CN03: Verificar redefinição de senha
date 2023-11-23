@@ -1,0 +1,7 @@
+CT01: Verificar redefinição de senha 
+- Passos do teste: acessar o site ( https://www.cemig.com.br/)
+                 informar usuário e senha 
+                 usuário informa senha incorreta 
+                 clicar em " esqueci minha senha"
+                 usuário recebe em seu e-mail instruções de como redefinir a senha
+- Resultado esperado:  usuário recebe em seu e-mail instruções de como redefinir a senha
