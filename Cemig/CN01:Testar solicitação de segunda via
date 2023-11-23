@@ -1,0 +1,9 @@
+CT01: Validar solicitação de segunda via
+- Passos do teste: entrar no navegador 
+                   digitar site ( https://www.cemig.com.br/)
+                   clicar em "2 via de conta"
+                   usuário é direcionado para página e digita login e senha
+                   usuário é direcionado para página de Menu principal do serviço da sua residência
+                   clicar em segunda via de conta 
+                   usuário é direcionado para página de que está tudo certo, não há contas em aberto para essa instalação
+- Resultado esperado: cliente recebe a mensagem se há contas em aberto para essa instalação ou não 
