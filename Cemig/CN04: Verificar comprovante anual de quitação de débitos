@@ -1,0 +1,12 @@
+CT01: Validar comprovante anual de quitação de débitos
+- Passos do teste: entrar no site ( https://www.cemig.com.br/)
+                   clicar em "comprovante anual de quitação de débitos"
+                   escolher o comprovante do ano desejado e clicar em enviar por E-mail ou Baixar PDF
+- Resultado esperado: usuário ter acesso ao comprovante anual de quitação de débitos com as seguintes informações- número do cliente, nome do titular, número da 
+instalação, mês e ano de referência e declaração de débito quitado. 
+
+
+
+
+
+                  
